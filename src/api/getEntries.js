@@ -1,4 +1,4 @@
-import http from "./http-common";
+import axios from "axios";
 
 /**
  * List all entries currently cataloged in the project. All parameters documented at
@@ -8,5 +8,5 @@ import http from "./http-common";
  * @return {Promise} The Promise to be fulfilled.
  */
 export default function getEntries(params = {}) {
-  return http.get('/entries', { params });
+  return axios.get('https://api.publicapis.org/entries', { params });
 }

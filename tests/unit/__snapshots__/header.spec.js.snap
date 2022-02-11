@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeldmHeader renders correctly 1`] = `
+<nav
+  class="bg-blue-700 p-6 text-white"
+>
+  
+  The official list of Public APIs
+
+</nav>
+`;

@@ -1,4 +1,4 @@
-import http from "./http-common";
+import axios from "axios";
 
 /**
  * List all categories currently cataloged in the project.
@@ -6,5 +6,5 @@ import http from "./http-common";
  * @return {Promise} The Promise to be fulfilled.
  */
 export default function getCategories() {
-  return http.get('/categories');
+  return axios.get('https://api.publicapis.org/categories');
 }

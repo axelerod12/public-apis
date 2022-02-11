@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeldmPublicApisItem renders correctly 1`] = `
+<tr>
+  <td
+    class="border p-2"
+  >
+    
+    AdoptAPet
+  
+  </td>
+   
+  <td
+    class="border p-2"
+  >
+    
+    apiKey
+  
+  </td>
+   
+  <td
+    class="border p-2"
+  >
+    
+    Animals
+  
+  </td>
+   
+  <td
+    class="border p-2"
+  >
+    
+    yes
+  
+  </td>
+   
+  <td
+    class="border p-2"
+  >
+    
+    Resource to help get pets adopted
+  
+  </td>
+   
+  <td
+    class="border p-2"
+  >
+    
+    true
+  
+  </td>
+   
+  <td
+    class="border p-2 underline"
+  >
+    <a
+      href="https://www.adoptapet.com/public/apis/pet_list.html"
+      target="_blank"
+    >
+      
+      https://www.adoptapet.com/public/apis/pet_list.html
+    
+    </a>
+  </td>
+</tr>
+`;

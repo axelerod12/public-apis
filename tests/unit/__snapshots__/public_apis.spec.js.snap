@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeldmPublicApis renders correctly 1`] = `
+<div>
+  <section>
+    <div>
+      <div
+        class="flex flex-wrap justify-between mx-4 my-8"
+      >
+        <div>
+          <feldm-public-apis-filter-stub
+            label="Category"
+          />
+        </div>
+         
+        <div>
+          <feldm-public-apis-search-stub
+            label="Search"
+            placeholder="Search by name..."
+          />
+        </div>
+      </div>
+       
+      <div>
+        <feldm-public-apis-list-stub
+          apis="[object Object],[object Object]"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

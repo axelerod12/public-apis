@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeldmPublicApisSearch renders correctly 1`] = `
+<div
+  class="flex items-center"
+>
+  <label
+    class="text-sm font-medium text-gray-900 dark:text-gray-300"
+    for="search"
+  >
+    
+    Search:
+  
+  </label>
+   
+  <input
+    class="g-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full mx-4 my-2 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+    id="search"
+    placeholder="Search by name..."
+    type="text"
+  />
+</div>
+`;

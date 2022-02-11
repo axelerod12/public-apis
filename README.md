@@ -1,5 +1,13 @@
 # public-apis
 
+## Testing
+
+### Unit tests
+
+Components’ unit tests live in the `tests/unit`.
+
+`yarn test:unit` runs all unit tests.
+
 ## Project setup
 ```
 yarn install

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeldmPublicApisList renders correctly 1`] = `
+<div
+  class="mx-2 overflow-x-auto"
+>
+  <table
+    class="shadow-lg bg-white w-full"
+  >
+    <thead>
+      <tr>
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          API
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          Auth
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          Category
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          Cors
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          Description
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          HTTPS
+        </th>
+         
+        <th
+          class="bg-blue-100 border text-left p-2"
+        >
+          Link
+        </th>
+      </tr>
+    </thead>
+     
+    <tbody>
+      <feldm-public-apis-item-stub
+        item="[object Object]"
+      />
+      <feldm-public-apis-item-stub
+        item="[object Object]"
+      />
+    </tbody>
+  </table>
+</div>
+`;
