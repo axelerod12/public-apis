@@ -31,19 +31,13 @@ export default {
     value: {
       type: String,
       required: false,
-      default: null,
+      default: '',
     },
-    /**
-     * The label associated with the input element.
-     */
     label: {
       type: String,
       required: false,
       default: "Search",
     },
-    /**
-     * The placeholder attribute for the input element.
-     */
     placeholder: {
       type: String,
       required: false,
@@ -54,12 +48,6 @@ export default {
   methods: {
     // Debouncing with Lodash.
     changeHandler: debounce(function (event) {
-      /**
-       * Triggered by user interaction.
-       *
-       * @event input
-       * @type {String}
-       */
       this.$emit("input", event.target.value);
     }, 500),
   },
