@@ -58,10 +58,10 @@ export default {
     return {
       apis: [],
       loading: true,
-      error: null,
+      error: '',
       filters: {
-        title: null,
-        category: null,
+        title: '',
+        category: '',
       },
     };
   },
