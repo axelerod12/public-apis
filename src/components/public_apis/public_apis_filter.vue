@@ -38,11 +38,8 @@ export default {
     value: {
       type: String,
       required: false,
-      default: null,
+      default: '',
     },
-    /**
-     * The label associated with the select element.
-     */
     label: {
       type: String,
       required: false,
@@ -67,12 +64,6 @@ export default {
     },
 
     changeHandler(event) {
-      /**
-       * Triggered by user interaction.
-       *
-       * @event input
-       * @type {String}
-       */
       this.$emit("input", event.target.value);
     },
   },
