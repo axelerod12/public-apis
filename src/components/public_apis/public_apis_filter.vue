@@ -13,7 +13,7 @@
       v-bind:value="value"
       @change="changeHandler"
     >
-      <option :value="null">All</option>
+      <option value="">All</option>
       <option
         v-for="category in categories"
         v-bind:value="category"
